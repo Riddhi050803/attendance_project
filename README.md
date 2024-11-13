@@ -1,12 +1,12 @@
 **Face Recognition Attendance System**
 Overview
-This is a face recognition-based attendance system that uses OpenCV and Python. The system captures images from the webcam, detects faces, and matches them with registered faces stored locally. If a match is found, the attendance is marked for that user, and the system ensures that attendance can only be marked once within 50 seconds. Once the attendance is successfully marked, the program automatically closes.
+This is a face recognition-based attendance system that uses OpenCV and Python. The system captures images from the webcam, detects faces, and matches them with registered faces stored locally. If a match is found, the attendance is marked for that user, and the system ensures that attendance can only be marked once within 150 seconds. Once the attendance is successfully marked, the program automatically closes.
 
 Features
 Face Detection: Detects faces in real-time using OpenCV's Haar Cascade Classifier.
 Face Recognition: Matches detected faces with known registered faces stored in a local directory.
 Attendance Marking: Records attendance in a text file with a timestamp.
-50-second Limit: Prevents multiple attendance marks within 50 seconds for the same person.
+150-second Limit: Prevents multiple attendance marks within 50 seconds for the same person.
 Automatic Exit: Automatically closes the program once attendance is successfully marked for a recognized user.
 User-Friendly: Displays the name of the recognized user on the webcam feed.
 Requirements
