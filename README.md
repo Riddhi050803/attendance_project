@@ -19,7 +19,8 @@ pip install opencv-python numpy
 
 
 **Directory Structure**
-![image](https://github.com/user-attachments/assets/a58f2bfe-12b5-49bb-a58f-5805136cae14)
+![image](https://github.com/user-attachments/assets/374e44e8-31a3-409a-8be7-a97ae2a2c46f)
+
 
 
 data/ Directory
@@ -39,9 +40,11 @@ python app.py
 
 The program will open the webcam feed and start detecting faces. When a recognized face is detected, the system will mark attendance and print the message Attendance marked for <user_name> in the terminal. The program will then automatically exit.
 
-Attendance File: Attendance will be recorded in the attendance.txt file in the format:
+Attendance File: Attendance will be recorded in the attendance.txt file in the format:<user_name>,<timestamp>
 
-<user_name>,<timestamp>
+Run the following command to see the attendance:
+
+python mark_attendance.py
 
 Exit the Program Manually: You can also exit the program at any time by pressing q on the keyboard.
 
