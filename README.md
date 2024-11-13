@@ -46,7 +46,7 @@ Run the Program:
 
 Run the following command to start the program:
 
-python face_recognition_attendance.py
+python app.py
 The program will open the webcam feed and start detecting faces. When a recognized face is detected, the system will mark attendance and print the message Attendance marked for <user_name> in the terminal. The program will then automatically exit.
 
 Attendance File: Attendance will be recorded in the attendance.txt file in the format:
