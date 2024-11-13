@@ -19,19 +19,8 @@ pip install opencv-python numpy
 
 
 **Directory Structure**
-project_directory/
-├── data/                         # Directory for storing registered users' images (one folder per user)
-│   ├── user1/
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   └── user2/
-│       ├── img1.jpg
-│       ├── img2.jpg
-├── haarcascade/
-│   ├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
-├── attendance.txt                # Attendance file storing name and timestamp
-├── face_recognition_attendance.py  # Main script
-└── README.md                     # This file
+![image](https://github.com/user-attachments/assets/a58f2bfe-12b5-49bb-a58f-5805136cae14)
+
 
 data/ Directory
 Place user images in the data/ directory, where each user has their own folder with multiple images for better face recognition accuracy.
